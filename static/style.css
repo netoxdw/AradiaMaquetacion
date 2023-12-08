@@ -81,15 +81,30 @@ body{
     padding-bottom: 50px;
 }
 .productos h3{
-    
     font-family: var(--lifont);
     font-size: 60px;
     margin: 60px 0;
     color: white;
 }
 
+.content{
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  background-color: #000;
+}
 
+.items{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  background-color: #007bb6;
+  margin: 0 auto;
 
+}
+.col{
+  margin: 9px;
+}
 /* ############################################################################# */
 /* ######################          Footer        ############################### */
 /* ############################################################################# */
@@ -274,6 +289,11 @@ body{
   .main  p{
     font-size: 15px;
   }
+
+  .card{
+    width: 9rem;
+    /* height: 250px; */
+  }
   
 }
 
@@ -289,6 +309,8 @@ body{
   .main  p{
     font-size: 18px;
   }
+  /* --------------------------            Productos       ------------------------------------------- */
+
 }
 
 /** dispositivos medianos (tablets) */
