@@ -88,7 +88,7 @@ body{
 }
 
 .content{
-  width: 90%;
+  /* width: 90%; */
   margin: 0 auto;
   padding-bottom: 25px;
   background-color: #000;
@@ -97,7 +97,7 @@ body{
 .items{
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
+  /* width: 90%; */
   background-color: #007bb6;
   margin: 0 auto;
 
@@ -291,8 +291,8 @@ body{
   }
 
   .card{
-    width: 9rem;
-    /* height: 250px; */
+    width: 100%;
+    
   }
   
 }
